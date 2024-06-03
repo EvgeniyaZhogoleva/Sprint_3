@@ -1,7 +1,7 @@
 from conftest import driver
 from locators import Locators
 
-class Test_Constructor:
+class TestConstructor:
 
     def test_bread(self, driver):
         driver.get("https://stellarburgers.nomoreparties.site/")
